@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/7368552f2a.js" crossorigin="anonymous"></script>
+
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="main">
+
+    <h1>Weather</h1>
+
+      
+      <form class="change-location">
+        <label for="city">Enter a location for weather information</label>
+        <input type="text" name="city" class="city-input">
+      </form>
+
+      <div class="card none">
+        <div class="images">
+          <img src="https://via.placeholder.com/400x300" class="time">
+          <div class="icon">
+            <img src="">
+          </div>
+          <div class="details">
+            <h5>City Name</h5>
+            <div class="weather-condition">Weather Condition</div>
+            <div class="temperature">
+              <span class="degrees">temp</span>
+              <span>&deg;C</span>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+  <script src="/scripts/forecast.js"></script>
+  <script src="/scripts/app.js"></script>
+</body>
+</html>
